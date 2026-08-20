@@ -1,13 +1,20 @@
-# Build
-build
-
-# West files
-.west
-deps
-
+# Python
 .venv/
+
+# West
+.west/
+
+# CMake / Build
 CMakeFiles/
 build/
+cmake-build-*/
+
+# Zephyr dependencies
+deps/
+
+# Zephyr SDK
 zephyr-sdk-*/
-*.pyc
+
+# Python cache
 __pycache__/
+*.pyc
