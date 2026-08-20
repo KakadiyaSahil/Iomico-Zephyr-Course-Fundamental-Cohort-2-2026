@@ -3,6 +3,7 @@
 int main(void)
 {
     int64_t previous_time = k_uptime_get();
+    LOG_INF(" *hello_world* Program application is Running");
 
     while (1) {
         int64_t current_time = k_uptime_get();

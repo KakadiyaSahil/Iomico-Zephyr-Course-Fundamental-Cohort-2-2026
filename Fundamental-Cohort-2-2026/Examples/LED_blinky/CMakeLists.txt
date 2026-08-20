@@ -153,7 +153,7 @@ find_package(
     HINTS "${ZEPHYR_BASE}"
 )
 
-project(hello_world)
+project(LED_blinky)
 
 
 # ============================================================

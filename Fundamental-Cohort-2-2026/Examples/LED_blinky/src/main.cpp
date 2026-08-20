@@ -18,12 +18,13 @@ int main(void)
     if (!gpio_is_ready_dt(&led)) return 0;
 
     if (gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE) < 0) return 0;
-    printk(" *App* Program application is Running");
-    while (1) {
+    LOG_INF(" *LED_blinky* Program application is Running");
+    while (1) 
+    {
         if (gpio_pin_toggle_dt(&led) < 0) return 0;
 
         led_state = !led_state;
-        printk("LED state: %s", led_state ? "ON" : "OFF");
+        LOG_INF("LED state: %s", led_state ? "ON" : "OFF");
         k_msleep(SLEEP_TIME_MS);
     }
     return 0;
