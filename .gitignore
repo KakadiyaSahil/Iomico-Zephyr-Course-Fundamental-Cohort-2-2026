@@ -4,3 +4,10 @@ build
 # West files
 .west
 deps
+
+.venv/
+CMakeFiles/
+build/
+zephyr-sdk-*/
+*.pyc
+__pycache__/
