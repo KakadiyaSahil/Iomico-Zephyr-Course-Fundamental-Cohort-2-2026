@@ -2,9 +2,12 @@
 
 A structured Zephyr RTOS development workspace for the Iomico Embedded Systems course.
 
-This repository contains the Fundamental and Intermediate Zephyr course material, examples, application source code, board configurations, Device Tree overlays, and West manifest configuration.
+> **Platform:** Windows 10 / Windows 11  
+> **Shell:** Windows PowerShell  
+> **Environment:** Python virtual environment + West + Zephyr RTOS + Zephyr SDK  
+> **Target:** ESP32 / Espressif boards specially - ESP32-Wroom-32 https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
 
----
+This README documents the commands used to set up, build, flash, debug, and manage the Iomico Zephyr course repository.
 
 ## Repository Structure
 
